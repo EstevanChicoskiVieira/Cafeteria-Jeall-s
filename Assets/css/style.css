@@ -331,6 +331,24 @@ main .main-div6 .formulario form .name input {
 main .main-div6 .formulario form input {
   width: 25vw;
   height: 5vh;
+  border: 0;
+  border-bottom: 1px solid #b89073;
+}
+main .main-div6 .formulario form input:focus, main .main-div6 .formulario form input select:focus {
+  box-shadow: 0 0 0 0;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #5a4738;
+}
+main .main-div6 .formulario form textarea:focus, main .main-div6 .formulario form select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #5a4738;
+}
+main .main-div6 .formulario form textarea {
+  border: 0;
+  border-bottom: 1px solid #b89073;
 }
 
 footer {
